@@ -27,7 +27,7 @@ body>.AboutSection,.bottom{
 }
 
 .nav-link:hover{
-    color:rgb(93, 93, 82);
+    color:blue;
 }
 
 .area-top{
@@ -36,7 +36,7 @@ body>.AboutSection,.bottom{
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 100%;
-    padding-bottom: 12em;
+    padding-bottom: 7em;
 }
 
 .logo{
@@ -405,3 +405,195 @@ font-size: 15px;
   
   width: 100%;
 }
+/* ABOUTUS PAGE ENDS HERE*/
+
+
+
+
+/*this is for the dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  padding-inline-start: 0px;
+  justify-items: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .nav-link {
+  background-color: #ddd;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 07px 0px;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  border-left: #0f2480 solid 3px;
+  padding-left: 3px;
+  color: #0f2480;
+}
+
+.nav ul li {
+  list-style-type: none;
+}
+
+.dropdown .nav-link {
+  cursor: pointer;
+  user-select: none;
+}
+/*DROPDOWN ENDS HERE*/
+
+
+
+
+/* offers page */
+.house-section {
+  margin: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.house {
+  width: 30%; 
+  margin-bottom: 20px;
+}
+
+.house img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.house p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+
+/*OFFERS PAGE END HERE*/
+
+
+
+
+
+/*FAQ starts*/
+
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-question {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.faq-answer {
+  margin-bottom: 3px;
+}
+
+.r{
+  color: blue;
+  display: inline;
+}
+
+.h{
+  color: rgba(0, 0, 255, 0.564);
+  display: inline;
+}
+/* FAQ ENDS HERE*/
+
+
+
+
+/*News starts here*/
+.news {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.article {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #777;
+  font-size: 14px;
+}
+/*NEWS ENDS HERE*/
+
+
+
+/*search starts*/
+body .mid{
+  padding: 0em 7em;
+}
+/*SEARCH ENDS*/
+
+
+/*Submit property starts */
+.SubmitProperty{
+  padding: 0em 7em;
+  display: flex;
+    justify-content: space-between;
+}
+
+.form1 {
+  flex: 1;
+  margin-right: 20px; 
+}
+
+
+.SubmitProperty form{
+  border: #0f2480 solid 2px;
+  padding: 30px; 
+  margin: 15px;
+}
+
+
+input,select,label{
+  margin: 3px;
+}
+
+#Submit{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color:#0f2480;
+}
+
+#Submit:hover{
+  color: white;
+  background-color:#0f2480;
+}
+
+.announce {
+  flex: 1;
+  background-color: aqua;
+  max-width: 200px;
+  max-height: 100px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+}
+
+/*SUBMIT PROPERTY ENDS*/
