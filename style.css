@@ -37,7 +37,7 @@ body>.AboutSection,.bottom{
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 100%;
-    
+    padding-bottom: 12em;
 }
 
 .logo{
@@ -176,6 +176,8 @@ iframe{
     margin-top: 10px;
     display: flex;
     align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
   
   .img{
@@ -266,6 +268,10 @@ font-size: 15px;
   margin-bottom: 10px;
 }
 
+.OP{
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
 .OP table{
   margin: auto;
   margin-bottom: 5px;
