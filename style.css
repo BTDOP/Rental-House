@@ -1,8 +1,7 @@
 nav {
     background: linear-gradient(to left, #304352, rgb(144, 132, 132));
     padding:1px;
-    border-radius: 25px;
-   
+    border-radius: 25px;  
 }
 body {
     font-family: "Sofia", sans-serif;
@@ -378,4 +377,31 @@ font-size: 15px;
   padding: 3px;
   background-color: black;
   border-radius: 5px;
+}
+
+
+
+/* this is aboutUs in aboutus page */
+.AboutUs-P{
+  margin: 2em;
+  display: flex; 
+  justify-content: space-between; 
+  border: #304352 solid 3px;
+  padding: 20px;
+}
+
+.H,.A,.S{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 1em;
+}
+.H img, .A img, .S img{
+  width: 30%;
+  height: auto;
+}
+
+.H img:hover,.A img:hover,.S img:hover{
+  
+  width: 100%;
 }
