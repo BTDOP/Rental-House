@@ -5,132 +5,206 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rental House</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Inter:wght@500|Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700">
+    
 </head>
 <body>
+    <div class="area-top">
+    <div>
+        <header>
+          <div class="SignForm">
+            <ul>
+              <li>
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign up</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
+      
     <nav>
         <ul class="nav" style="
         padding-left: 0px;">
-            <img src="property.jpg" alt="" class="logo">
-            <li><a href="Home.html" class="nav-link">Home</a></li>
+            <img src="Images/property.jpg" alt="" class="logo">
+            <li><a href="index.html" class="nav-link">Home</a></li>
             <li><a href="contact.html" class="nav-link">Contact Us</a></li>
             <li><a href="About.html" class="nav-link">About Us</a></li>
             <li><a href="Properties.html" class="nav-link">Properties</a></li>
-            <li><a href="Property Details.html" class="nav-link">Property Details</a></li>
+            <li><a href="Property_Details.html" class="nav-link">Property Details</a></li>
             <li><a href="Search.html" class="nav-link">Search</a></li>
             <li><a href="FAQs.html" class="nav-link">FAQs</a></li>
-            <li><a href="Tenant Resources.html" class="nav-link">Tenant Resources</a></li>
-           
-            <li><a href="Testimonials.html" class="nav-link">Testimonials</a></li>
             <li><a href="News.html" class="nav-link">News</a></li>
-
         </ul>
     </nav>
-    <h1 id="title">FIND YOUR DREAM HOUSE</h1>
-    <div class="search-bar">
-        <input type="text" id="search-keyword" placeholder="Search Keyword">
-        <select id="city">
-            <option value="">City</option>
-            <option value="city1">Erbil</option>
-            <option value="city2">Sulaymaniyah</option>
-        </select>
-        <select id="purpose">
-            <option value="">Purpose</option>
-            <option value="purpose1">Rent</option>
-            <option value="purpose2">Sale</option>
-            <option value="purpose3">Commercial Rent</option>
-            <option value="purpose3">Commercial Sale</option>
-        </select>
-        <select id="property-type">
-            <option value="">Property Type</option>
-            <option value="type1">Apartment</option>
-            <option value="type2">House</option>
-            <option value="type3">Villa</option>
-            <option value="type3">Land</option>
-            <option value="type3">Office</option>
-            <option value="type3">Building</option>
-            <option value="type3">Hotel</option>
-            <option value="type3">Market</option>
-        </select>
-        <select id="project">
-            <option value="">Project</option>
-            <option value="project2">Erbil, Waziran</option>
-            <option value="project2">Erbil, Majidi View</option>
-            <option value="project3">Erbil, Empire World</option>
-            <option value="project3">Erbil, Empire Towers</option>
-            <option value="project3">Erbil, Quattro Towers</option>
-            <option value="project3">Erbil, MRF Towers</option>
-            <option value="project3">Erbil, Park View</option>
-            <option value="project3">Erbil, Pavilion</option>
-            <option value="project3">Erbil, Sky Towers</option>
-            <option value="project3">Erbil, Zanyari Towers</option>
-            <option value="project3">Erbil, Gullan Tower</option>
-            <option value="project3">Erbil, English Village</option>
-            <option value="project3">Erbil, American Village</option>
-            <option value="project3">Erbil, Aram Village 1</option>
-            <option value="project3">Erbil, Aram Village 2</option>
-            <option value="project3">Erbil, Life Tower</option>
-            <option value="project3">Erbil, Italian City 1</option>
-            <option value="project3">Erbil, Italian City 2</option>
-            <option value="project3">Erbil, Hawleri Nwe</option>
-            <option value="project3">Erbil, Future City</option>
-            <option value="project3">Erbil, Hiwa City</option>
-            <option value="project3">Erbil, Lana City</option>
-            <option value="project3">Erbil, Zhyan City</option>
-            <option value="project3">Erbil, Global City</option>
-            <option value="project3">Erbil, Ashti City 2</option>
-            <option value="project3">Erbil, The Boulevard</option>
-            <option value="project3">Erbil, Floria City</option>
-            <option value="project3">Erbil, Mini Slava</option>
-            <option value="project3">Erbil, Slava City</option>
-            <option value="project3">Erbil, Lalav Airport View</option>
-            <option value="project3">Erbil, Lalav Sky View</option>
-            <option value="project3">Erbil, Lalav City View</option>
-            <option value="project3">Erbil, Lalav City</option>
-            <option value="project3">Erbil, English Tower</option>
-            <option value="project3">Erbil, Ganjan Life</option>
-            <option value="project3">Erbil, Ganjan City</option>
-            <option value="project3">Erbil, Pheonix Tower</option>
-            <option value="project3">Erbil, Mass Hills</option>
-            <option value="project3">Erbil, Mass Village</option>
-            <option value="project3">Erbil, Mass City</option>
-            <option value="project3">Erbil, Mountain View</option>
-            <option value="project1">Sulaymaniyah, Garden City</option>
-            <option value="project3">Sulaymaniyah, Suli View</option>
-            <option value="project3">Sulaymaniyah, Titanic Towers</option>
-            <option value="project3">Sulaymaniyah, City Towers</option>
-            <option value="project3">Sulaymaniyah, Park 77</option>
-            <option value="project3">Sulaymaniyah, Shary Daik</option>
-            <option value="project3">Sulaymaniyah, Dania City</option>
-            <option value="project3">Sulaymaniyah, Gundy Almany</option>
-            <option value="project3">Sulaymaniyah, Darwaza city</option>
-            <option value="project3">Sulaymaniyah, Slemany Height</option>
-            <option value="project3">Sulaymaniyah, Qaiwan city</option>
-            <option value="project3">Sulaymaniyah, Aram city</option>
-            <option value="project3">Sulaymaniyah, Grand Boulevard</option>
-        </select>
-        <button id="search-btn">SEARCH</button>
-    </div>
-    <div class="top-box">
-    <div class="search">
-        <img src="Search.jpg">
-    <div class="search-info">
-        <p>Price: $1000/month</p>
-        <p>Location: Erbil, Iraq</p>
-        <p>Size: 350 sq. m.</p>
-        <p>Contact info: 123-456-7890</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103029.3637631859!2d44.00247925!3d36.19896465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400722fe13443461%3A0x3e01d63391de79d1!2sErbil%2C%20Erbil%20Governorate!5e0!3m2!1sen!2siq!4v1715128516723!5m2!1sen!2siq" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    
-    <div>
-        
-    </div>
-    
-    
-</div>
-<div>
+  
+   
 
-</div>
-    </div>
+        <div class="row">
+            <div class="detail-box">
+              <h1>
+                <span class="R">Rental</span> <br>
+                <span class="HC">House <br>
+                Company</span>
+              </h1>
+              <p>
+                <strong>is a long established fact that a reader <br>will be distracted by readable content.</strong> 
+              </p>
+                <div class="btn-box">
+                    <a href="" class="read">
+                    Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+        <div class="AboutSection">
+            <div class="img">
+            <img src="Images/about-img.jpg" alt="">
+            </div>
+            <div class="detail">
+                <div class="about-h">
+                    <h2>About Company</h2>
+                </div>
+                <div class="about-p">
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+                </p>
+            </div>
+            <div class="btn-box">
+                <a href="" class="read">
+                Read More
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <section class="OP">
+          <h1 class="hp">Prices</h1>
+          <div>
+            <table>
+              <tr>
+                <th>Basic</th>
+              </tr>
+              <tr>
+                <td class="price">$50.00</td>
+              </tr>
+              <tr>
+                <td>Centro comerciala sum available, <br>but the majority have some form, by</td>
+              </tr>
+            </table>
+            <button class="OPB">
+              Buy Now
+            </button>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <th>Prime</th>
+              </tr>
+              <tr>
+                <td class="price">$85.00</td>
+              </tr>
+              <tr>
+                <td>Centro comerciala sum available, <br>but the majority have some form, by</td>
+              </tr>
+            </table>
+            <button class="OPB">
+              Buy Now
+            </button>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <th>VIP</th>
+              </tr>
+              <tr>
+                <td class="price">$100.00</td>
+              </tr>
+              <tr>
+                <td>Centro comerciala sum available, <br>but the majority have some form, by</td>
+              </tr>
+            </table>
+            <button class="OPB">
+              Buy Now
+            </button>
+          </div>
+        </section>
+        <h1 class="center"> Customer feedback</h1>
+        <section class="CF1">
+
+<table>
+  <img src="Images/Sarah.png" alt="">
+  <tr>
+    <th>Sarah Montana says:</th>
+  </tr>
+  <tr>
+    <td>"Rental House company really changed my life! I can not believe it was this easy to sell my parents house while they were on a vacation!"</td>
+  </tr>
+</table>
+</section>
+<section class="CF2">
+<table>
+  <img src="Images/mafia.jpg" alt="">
+  <tr>
+    <th>Steve Job says:</th>
+  </tr>
+  <tr>
+    <td>"My experience with Rental House company has been one of the best. If it was in my hands I would cancel the other real estate companies."</td>
+  </tr>
+</table>
+
+
+        </section>
+        <section class="bottom">
+                <div class="contact">
+                    <div class="row">
+                        <div class="info_contact">
+                          <h5>
+                            Contact
+                          </h5>
+                          <div>
+                            <div class="img-box">
+                              <img src="images/location.png" width="18px" alt="">
+                            </div>
+                            <p>
+                              32 Park, Erbil
+                            </p>
+                          </div>
+                          <div>
+                            <div class="img-box">
+                              <img src="images/phone.png" width="12px" alt="">
+                            </div>
+                            <p>
+                              +964 750 1234 5678
+                            </p>
+                          </div>
+                          <div>
+                            <div class="img-box">
+                              <img src="images/mail.png" width="18px" alt="">
+                            </div>
+                            <p>
+                              Rental.House@contact.com
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="info">
+                  <h5>Information</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Amet ratione consequuntur recusandae, maiores id nam <br>non omnis voluptate in. Quis, architecto dolorum<br></p>
+                </div>
+                <div class="form">
+                  <h5>Newsletter</h5>
+                  <form action="">
+                    <input type="email" name="" id="" placeholder="Enter your email address" class="email"><BR>
+                    <button>SUBSCRIBE</button>
+                  </form>
+                </div>
+        </section>
+
 </body>
 </html>
