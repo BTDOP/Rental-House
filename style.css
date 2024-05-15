@@ -11,6 +11,11 @@ body {
 body>.AboutSection,.bottom{
     padding: 0em 7em;
 }
+
+.bottom{
+  align-items: center;
+  align-items: stretch;
+}
 .nav {
     list-style-type: none;
     display: flex; 
@@ -186,6 +191,7 @@ iframe{
   }
 
   .row{
+    
     color: white;
   }
 
@@ -226,17 +232,20 @@ font-size: 15px;
 }
 
 .info_contact > div {
-    display: flex;
-    align-items: center;
-   
-
+  display: flex;
+  margin-top: -13px;
+  align-items: center;
 }
 
 
 
-.info_contact>h5{
+.info_contact>h5 {
   font-size: 30px;
+  margin-top: 50px !important;
+
 }
+
+
 .info>h5{
   color: white;;
   font-size: 30px;
@@ -258,8 +267,8 @@ font-size: 15px;
 }
 .form button{
   background-color: orange;
-  padding: 20px;
-  border-radius: 15px;
+    padding: 11px;
+    border-radius: 14px;
 }
 
 .email{
@@ -378,7 +387,13 @@ font-size: 15px;
   background-color: black;
   border-radius: 5px;
 }
+/*Bottom starts here*/
+.moving{
+  margin-top: -30px !important;
+}
 
+
+/*BOTTOM ENDS HERE*/
 
 
 /* this is aboutUs in aboutus page */
@@ -676,3 +691,4 @@ footer {
 }
 
 /*END OF FOOTER*/
+
