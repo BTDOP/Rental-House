@@ -28,11 +28,11 @@ body>.AboutSection,.bottom{
     color: #fff;
     text-decoration: none;
     padding: 5px 20px;
-    
+    font-size: 23px;
 }
 
 .nav-link:hover{
-    color:blue;
+    color:rgb(170, 170, 175);
 }
 
 .area-top{
@@ -127,7 +127,9 @@ iframe{
 }
 
 .SignForm{
-    margin-left: 68em; 
+   text-align: right; 
+   background-image: url(Images/hero-b.jpg);
+   font-size: 14px;
 }
 
   .SignForm li, .SignForm ul, .SignForm a {
@@ -135,11 +137,11 @@ iframe{
     margin-right: 7px; 
     text-decoration: none; 
     list-style-type: none; 
-    color: rgb(36, 140, 159);
+    color: rgb(0, 0, 0);
   }
 
   .SignForm a:hover{
-    color: rgb(0, 255, 174);
+    color: rgb(104, 105, 105);
   }
 
   .detail-box {
