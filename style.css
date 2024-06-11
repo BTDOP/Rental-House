@@ -1,7 +1,9 @@
 nav {
-    background: linear-gradient(to left, #304352, rgb(144, 132, 132));
-    padding:1px;
-    border-radius: 25px;  
+  background: linear-gradient(to left, #304352, rgb(144, 132, 132));
+  padding: 1px;
+  border-radius: 25px;  
+  max-width: 99%; 
+  margin: 0 auto; 
 }
 body {
     font-family: "Sofia", sans-serif;
@@ -17,22 +19,24 @@ body>.AboutSection,.bottom{
   align-items: stretch;
 }
 .nav {
-    list-style-type: none;
-    display: flex; 
-    align-items: center;
-    justify-content: space-evenly;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0; 
+  margin: 0; 
     
-    
-}
-.nav-link {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-size: 23px;
 }
 
-.nav-link:hover{
-    color:rgb(170, 170, 175);
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: rgb(170, 170, 175);
 }
 
 .area-top{
@@ -41,12 +45,12 @@ body>.AboutSection,.bottom{
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 100%;
-    padding-bottom: 7em;
+    padding-bottom: 10em;
 }
 
 .logo{
-    max-width: 100px;
-    max-height: 100px; 
+    max-width: 120px;
+    max-height: 57px; 
     transform: scaleX(-1);
 }
 .search-bar {
@@ -399,29 +403,55 @@ font-size: 15px;
 
 
 /* this is aboutUs in aboutus page */
-.AboutUs-P{
-  margin: 2em;
-  display: flex; 
-  justify-content: space-between; 
-  border: #304352 solid 3px;
-  padding: 20px;
+
+
+.AboutUS{
+display: flex;
 }
 
-.H,.A,.S{
-  overflow: hidden;
+.About-Sec {
+  padding: 0 7em;
+}
+
+
+.AboutTeam {
+  display: flex;
+}
+
+
+.aboutUs-Para p, .aboutUs-Parah1{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  color: white;
+  
+}
+
+
+
+.H, .A, .S {
   display: flex;
   flex-direction: column-reverse;
-  margin: 0 1em;
-}
-.H img, .A img, .S img{
-  width: 30%;
-  height: auto;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: white; 
+  margin: 0em 3em;
+  align-items: center; 
+  text-align: center; 
 }
 
-.H img:hover,.A img:hover,.S img:hover{
+.H img, .A img, .S img {
+  margin: 1em 0em;
+  width: 30%;
+  height: auto;
+  border-radius: 50%; 
+  transition: transform 0.3s ease-in-out; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   
-  width: 100%;
 }
+
+.H img:hover, .A img:hover, .S img:hover {
+  transform: scale(1.5); 
+}
+
+
 /* ABOUTUS PAGE ENDS HERE*/
 
 
@@ -560,7 +590,7 @@ font-size: 15px;
 
 /*search starts*/
 body .mid{
-  padding: 0em 7em;
+  padding: 0em 7em !important;
 }
 /*SEARCH ENDS*/
 
